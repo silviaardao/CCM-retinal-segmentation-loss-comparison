@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "Retinal artery-vein segmentation with U-Net architectures and loss functions"
+type: software
+authors:
+  - family-names: "Rodríguez Ardao"
+    given-names: "Silvia"
+repository-code: "https://github.com/silviaardao/retinal-av-unet-benchmark"

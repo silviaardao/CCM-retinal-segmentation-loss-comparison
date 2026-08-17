@@ -1,0 +1,102 @@
+# Operating-system and Python-generated files
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments and editor settings
+.venv/
+venv/
+env/
+.env
+.env.*
+.idea/
+.vscode/
+
+# Unused or externally maintained material
+tUbeNet/
+OCT5k/
+LITERATURE/
+
+# Private working documents and report drafts
+docs/
+*.docx
+EXPERIMENTS_OVERVIEW.md
+PLAN_*.md
+PROJECT_JOURNEY.md
+REPORT_*.md
+README 2.md
+METHODS_architectures_and_losses.md
+data/*.txt
+requirements/README.md
+
+# Out-of-scope experiment tracks for the first focused release
+binary_baseline/
+medsam_adapter/
+pipeline_ablation/
+PLAN_medsam_adapter.md
+
+# Downloaded and derived datasets. Small split manifests are explicitly retained.
+data/raw/
+data/organized/
+data/training/
+data/test/
+data/oct_layers/
+data/hrf_external/
+
+# nnU-Net working directories. Project-authored launchers and custom trainers live elsewhere.
+nnunet/nnUNet_raw/
+nnunet/nnUNet_preprocessed/
+nnunet/nnUNet_results/
+nnunet/predictions_*/
+
+# Model weights and transient training products
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.pkl
+*.b2nd
+*.log
+*.tmp
+*.lock
+
+# OCT- and HRF-specific code will be reviewed in a later release.
+datasets/oct5k.py
+evaluation/metrics/oct_metrics.py
+scripts/evaluate_hrf.py
+scripts/peek_oct5k.py
+scripts/preprocess_hrf.py
+scripts/preprocess_oct5k.py
+scripts/train_oct_layers.py
+scripts/visualise_hrf.py
+scripts/build_qualitative_gallery.py
+scripts/progress.py
+
+# Superseded or mixed-scope orchestration is not part of the focused release.
+scripts/_archive/
+scripts/queue_weekend.ps1
+
+# Results remain local while the analysis and report are being developed.
+results/
+!results/
+results/*
+!results/README.md
+!results/summary/
+!results/summary/*.csv
+nnunet/nnunet_test_metrics.json
+nnunet/nnunet_test_per_image_dice.csv
+
+# Local inspection, plotting, progress, and smoke-test utilities
+scripts/colorize_masks.py
+scripts/make_analysis_figures.py
+scripts/peek.py
+scripts/plot_style.py
+scripts/plot_training_curves.py
+scripts/progress_cf.py
+scripts/smoke_test.py
+scripts/visualise_nnunet_losses.py

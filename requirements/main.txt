@@ -1,0 +1,8 @@
+# Core AV architecture/loss study.
+# Install a PyTorch build suitable for your CPU/CUDA platform first:
+# https://pytorch.org/get-started/locally/
+torch>=2.0
+numpy>=1.24
+Pillow>=9.0
+matplotlib>=3.7
+scipy>=1.10

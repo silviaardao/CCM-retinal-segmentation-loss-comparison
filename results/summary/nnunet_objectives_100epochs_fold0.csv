@@ -1,0 +1,8 @@
+objective,n,av_dice,overlap_dice,ambiguous_dice,av_cldice,note
+cldice,44,0.8326,0.5916,0.1935,0.8133,highest AV Dice and AV clDice in this reduced experiment
+dice,44,0.8289,0.6000,0.0020,0.8051,invalid as an overall winner because background Dice was 0.0830
+default,44,0.8287,0.5854,0.2031,0.8037,nnU-Net default Dice plus cross-entropy
+ce,44,0.8199,0.5033,0.1341,0.7935,unweighted cross-entropy inside nnU-Net
+cf_b,44,0.8170,0.4708,0.0000,0.7885,nnU-Net-specific adaptation
+cf_v,44,0.8139,0.5047,0.0000,0.7847,nnU-Net-specific adaptation
+cf_vb,44,0.8108,0.4905,0.0017,0.7805,nnU-Net-specific adaptation

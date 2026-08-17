@@ -1,0 +1,6 @@
+metric,controlled_unet,nnunet_three_fold_ensemble,difference
+artery_dice,0.8009,0.8400,0.0391
+vein_dice,0.8291,0.8677,0.0386
+av_dice,0.8150,0.8538,0.0388
+overlap_dice,0.5698,0.6220,0.0522
+ambiguous_dice,0.2017,0.1997,-0.0020

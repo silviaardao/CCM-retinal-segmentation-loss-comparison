@@ -1,0 +1,6 @@
+# Environment used for the nnU-Net extension. Keep this separate from the main
+# study environment because nnU-Net manages additional version constraints.
+nnunetv2==2.8.1
+numpy
+torch
+
